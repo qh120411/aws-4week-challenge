@@ -1,0 +1,300 @@
+text,intent
+khóa thẻ,lock_card
+khoá thẻ gấp,lock_card
+"Mất thẻ rồi, khóa giúp mình với!!",lock_card
+khoa the atm,lock_card
+"ko dùng thẻ nữa, khóa tạm giúp mình nha",lock_card
+"Em làm rơi ví mất cả thẻ ngân hàng, cần khóa thẻ ngay để tránh bị dùng trộm",lock_card
+khoa the giup minh voi,lock_card
+Cho mình tạm ngưng thẻ vài hôm đi công tác,lock_card
+Khóa thẻ tín dụng của mình lại giúp,lock_card
+the bi trom roi khoa gap giup minh,lock_card
+Muốn vô hiệu hóa thẻ debit,lock_card
+Làm thế nào để block thẻ trên app?,lock_card
+mở khóa thẻ,unlock_card
+mo khoa the atm,unlock_card
+"Thẻ đang bị khóa tạm, giờ muốn dùng lại thì làm sao",unlock_card
+Gỡ khóa thẻ trên app ở đâu vậy,unlock_card
+unlock thẻ giúp mình,unlock_card
+"Hôm trước mình khóa thẻ vì tưởng mất, giờ tìm thấy rồi, mở lại được ko?",unlock_card
+Kích hoạt lại thẻ đã khóa ạ,unlock_card
+the bi khoa roi mo lai kieu gi,unlock_card
+"Thẻ bị khóa vì nhập sai mã nhiều lần, làm sao mở lại?",unlock_card
+Mình muốn bỏ chế độ khóa tạm của thẻ,unlock_card
+Mở lại thẻ tín dụng đã khóa,unlock_card
+"mình vừa khóa nhầm thẻ, mở lại sao ạ",unlock_card
+đổi mã pin,change_pin
+doi pin the,change_pin
+Mình muốn đổi mật khẩu thẻ ATM sang số dễ nhớ hơn,change_pin
+Thay đổi mã PIN thẻ tín dụng ở đâu,change_pin
+đổi pin trên app dc ko,change_pin
+Cần đổi mã PIN vì sợ bị lộ,change_pin
+Quy trình đổi PIN thẻ ghi nợ như thế nào ạ?,change_pin
+"Mình biết mã pin cũ rồi, giờ muốn cài mã mới",change_pin
+thay pin atm,change_pin
+Muốn đặt mã PIN mới thay cho mã đang dùng,change_pin
+doi mat khau the atm o dau vay ban,change_pin
+Có thể đổi PIN thẻ qua hotline không?,change_pin
+quên pin,forgot_pin
+quen ma pin the roi,forgot_pin
+"Mình quên mất mã PIN thẻ ATM, giờ rút tiền không được",forgot_pin
+"Không nhớ pin, lấy lại bằng cách nào",forgot_pin
+Làm sao reset mã PIN khi quên?,forgot_pin
+Nhập sai pin hoài vì quên mật khẩu thẻ,forgot_pin
+"Em quên mật khẩu thẻ rồi, ngân hàng có gửi lại không ạ?",forgot_pin
+ko nhớ mã pin phải làm sao,forgot_pin
+Tôi lâu không dùng thẻ nên quên mất mã PIN,forgot_pin
+cap lai ma pin the atm,forgot_pin
+Quên mật khẩu rút tiền ở ATM thì lấy lại ở đâu?,forgot_pin
+"Mình để thẻ lâu quá không nhớ pin nữa, hỗ trợ giúp",forgot_pin
+lịch sử giao dịch,transaction_history
+sao kê,transaction_history
+sao ke tai khoan thang nay,transaction_history
+Cho mình xem các giao dịch 3 tháng gần nhất,transaction_history
+xuất sao kê ra file pdf được ko,transaction_history
+Mình muốn tra lại giao dịch ngày 15 tháng trước,transaction_history
+xem ls gd ở đâu,transaction_history
+Tải sao kê để làm hồ sơ xin visa,transaction_history
+tra cuu giao dich cu,transaction_history
+Có xem được chi tiết các khoản chi tiêu bằng thẻ không?,transaction_history
+lọc giao dịch theo số tiền được không ạ,transaction_history
+Làm sao xem lại các khoản mình đã chi trong tuần qua?,transaction_history
+chuyển tiền lỗi,transfer_failed
+chuyen khoan khong duoc,transfer_failed
+"Mình chuyển khoản mà cứ báo lỗi hoài, thử nhiều lần rồi",transfer_failed
+ck thất bại nhưng tiền bị trừ rồi,transfer_failed
+App hiện thông báo giao dịch không thành công,transfer_failed
+Chuyển tiền liên ngân hàng bị từ chối là sao?,transfer_failed
+bị trừ tiền mà giao dịch fail,transfer_failed
+Báo lỗi không thể xử lý khi chuyển tiền,transfer_failed
+"Mình chuyển 2 triệu cho bạn nhưng giao dịch bị hủy, tiền vẫn bị trừ",transfer_failed
+chuyen tien khong thanh cong tien van bi tru,transfer_failed
+Sao tôi không chuyển được tiền cho người khác?,transfer_failed
+chuyển khoản nhanh 247 bị lỗi,transfer_failed
+chuyển tiền chưa tới,transfer_pending
+giao dịch đang xử lý,transfer_pending
+Mình chuyển khoản từ sáng mà đến giờ người ta vẫn chưa nhận được,transfer_pending
+ck rồi mà ben kia chua thay tien,transfer_pending
+"Trạng thái giao dịch hiện đang chờ xử lý, bao lâu thì xong?",transfer_pending
+Tiền đi rồi nhưng người nhận bảo chưa có,transfer_pending
+Chuyển liên ngân hàng cuối tuần bao lâu thì tiền về?,transfer_pending
+giao dịch pending mãi ko xong,transfer_pending
+"chuyen tien nhung nguoi nhan chua nhan duoc, tren app van dang xu ly",transfer_pending
+"Giao dịch treo từ hôm qua, tiền đã trừ mà chưa tới người nhận",transfer_pending
+Bao lâu thì tiền chuyển khoản về tài khoản người nhận?,transfer_pending
+Khoản chuyển của mình đang ở trạng thái chờ,transfer_pending
+phí thẻ,card_fee
+phi rut tien atm,card_fee
+Mở thẻ tín dụng có mất phí không?,card_fee
+biểu phí thẻ ghi nợ,card_fee
+Phí rút tiền mặt bằng thẻ tín dụng là bao nhiêu,card_fee
+Làm lại thẻ bị mất tốn bao nhiêu tiền?,card_fee
+phí duy trì thẻ hằng năm,card_fee
+phi chuyen doi ngoai te khi quet the nuoc ngoai,card_fee
+Phí thường niên năm đầu có được miễn không?,card_fee
+Rút tiền ở cây ATM ngân hàng khác bị trừ bao nhiêu,card_fee
+cho mình hỏi phí làm thẻ,card_fee
+Dùng thẻ quẹt ở nước ngoài có phát sinh phí gì không?,card_fee
+số dư,balance_inquiry
+so du tai khoan,balance_inquiry
+check số dư tk,balance_inquiry
+Mình muốn xem còn bao nhiêu tiền trong thẻ,balance_inquiry
+tra cứu số dư bằng cách nhắn tin,balance_inquiry
+Cách xem số dư không cần đăng nhập app,balance_inquiry
+xem so du tren app,balance_inquiry
+Tài khoản của mình hiện còn bao nhiêu?,balance_inquiry
+ktra sd tk ở đâu,balance_inquiry
+Số dư khả dụng và số dư thực tế khác nhau chỗ nào,balance_inquiry
+Làm sao kiểm tra số tiền trong tài khoản lương?,balance_inquiry
+muon xem so tien con lai trong tai khoan,balance_inquiry
+có người lạ trừ tiền tài khoản,suspected_fraud
+bi lua dao,suspected_fraud
+Có người nhắn tin tự xưng nhân viên ngân hàng xin OTP của mình,suspected_fraud
+"Mình vừa bấm vào link lạ và nhập thông tin thẻ, giờ phải làm sao?",suspected_fraud
+tài khoản bị hack,suspected_fraud
+Phát hiện giao dịch bất thường lúc nửa đêm mà mình không làm,suspected_fraud
+bi mat tien trong tk ko ro ly do,suspected_fraud
+Có số lạ gọi bảo tài khoản bị khóa và yêu cầu chuyển tiền xác minh,suspected_fraud
+Nhận được SMS brandname giả ngân hàng,suspected_fraud
+"Mình lỡ đọc OTP cho người lạ, giờ làm sao ạ?",suspected_fraud
+ai do dang dung the cua minh khi minh khong biet,suspected_fraud
+"Tôi nghi ngờ app ngân hàng giả mạo, đã nhập mật khẩu vào đó",suspected_fraud
+hotline,contact_support
+gặp nhân viên tư vấn,contact_support
+so tong dai ngan hang la bao nhieu,contact_support
+"Mình muốn nói chuyện với người thật, không phải bot",contact_support
+Làm sao gửi khiếu nại tới ngân hàng?,contact_support
+chat với CSKH ở đâu,contact_support
+Giờ làm việc của tổng đài hỗ trợ là mấy giờ?,contact_support
+Cho mình xin email hỗ trợ của ngân hàng,contact_support
+can ho tro gap tu nhan vien,contact_support
+Tôi cần được chuyển máy tới bộ phận chăm sóc khách hàng,contact_support
+Chi nhánh gần nhất có hỗ trợ trực tiếp không?,contact_support
+alo cho minh hoi nhan vien ho tro,contact_support
+Làm sao kích hoạt thẻ mới nhận?,card_activation
+kich hoat the,card_activation
+"Mình vừa nhận được thẻ ATM từ ngân hàng, kích hoạt thế nào?",card_activation
+kích hoạt thẻ trên app như thế nào,card_activation
+"Thẻ mới chưa dùng được, cần kích hoạt ở đâu",card_activation
+Có phải ra quầy mới kích hoạt được thẻ không?,card_activation
+active the atm giup minh,card_activation
+Hướng dẫn kích hoạt thẻ tín dụng lần đầu,card_activation
+"Thẻ mới gửi về nhà, em phải làm gì để dùng được ạ?",card_activation
+kích hoạt thẻ qua tổng đài được không,card_activation
+Mình muốn bật thẻ mới để bắt đầu giao dịch,card_activation
+the moi nhan duoc kich hoat sao,card_activation
+Kích hoạt chip thẻ ở cây ATM được không?,card_activation
+kh thẻ mới,card_activation
+"Nhận thẻ rồi mà quẹt không được, cần kích hoạt à?",card_activation
+Thẻ chưa kích hoạt thì có rút tiền được không?,card_activation
+"Thẻ gửi qua bưu điện, mình cần làm gì sau khi nhận?",card_activation
+active thẻ visa mới nhận,card_activation
+ho tro kich hoat the tin dung,card_activation
+Nhập mã kích hoạt thẻ ở đâu vậy?,card_activation
+"Thẻ vừa được cấp, các bước để dùng được là gì?",card_activation
+kích hoạt thẻ lần đầu cần giấy tờ gì không,card_activation
+the da nhan nhung chua active duoc,card_activation
+"Mình đã nhận thẻ ở chi nhánh, giờ kích hoạt qua app có được không?",card_activation
+ATM nuốt thẻ của mình rồi,atm_issue
+cây ATM nuốt thẻ phải làm sao,atm_issue
+Rút tiền ở ATM mà không ra tiền nhưng bị trừ tiền trong tài khoản,atm_issue
+atm khong nha tien nhung bi tru tien,atm_issue
+Máy ATM báo lỗi khi rút tiền,atm_issue
+"Thẻ bị kẹt trong máy ATM, liên hệ ai?",atm_issue
+"Rút tiền ATM bị lỗi, tiền ra thiếu so với số tiền trên biên lai",atm_issue
+atm nuot the roi minh phai lam sao,atm_issue
+Máy ATM không nhận thẻ của mình,atm_issue
+rút tiền ở cây ATM không ra tiền mà tk bị trừ,atm_issue
+ATM hết tiền giữa lúc mình đang rút,atm_issue
+Làm sao lấy lại thẻ bị máy ATM giữ?,atm_issue
+Giao dịch rút tiền tại ATM bị treo màn hình,atm_issue
+atm báo lỗi không thể thực hiện giao dịch,atm_issue
+"Mình rút tiền ở ATM nhưng máy chỉ in biên lai, không nhả tiền",atm_issue
+máy atm bị nuốt thẻ ở đâu liên hệ lấy lại,atm_issue
+"Cây ATM nhả tiền thiếu, khiếu nại thế nào?",atm_issue
+rut tien khong ra tien nhung van bi tru,atm_issue
+Thẻ không lấy ra được khỏi khe đọc thẻ của ATM,atm_issue
+ATM thông báo thẻ không hợp lệ dù thẻ vẫn bình thường,atm_issue
+"Rút tiền ATM lỗi nhưng chưa bị trừ tiền, vẫn muốn báo cho ngân hàng",atm_issue
+may atm bi loi khi rut tien,atm_issue
+"Đi rút tiền thì máy ATM giữ lại thẻ, giờ muốn nhận lại",atm_issue
+atm nuốt tiền,atm_issue
+Không nhận được mã OTP,otp_issue
+otp khong ve,otp_issue
+Mình chuyển tiền nhưng đợi mãi vẫn chưa thấy OTP gửi về,otp_issue
+"Mã OTP hết hạn quá nhanh, phải làm sao?",otp_issue
+otp ko gửi về điện thoại,otp_issue
+Nhận OTP bị trễ vài phút mới tới,otp_issue
+Làm sao gửi lại mã OTP?,otp_issue
+Nhập OTP báo sai dù mình nhập đúng mã vừa nhận,otp_issue
+Smart OTP bị lỗi không lấy được mã,otp_issue
+ma otp khong ve tin nhan,otp_issue
+"Mình đang ở nước ngoài, không nhận được SMS OTP",otp_issue
+"OTP gửi về số cũ rồi, mình phải làm sao",otp_issue
+Đã bấm gửi lại OTP nhiều lần mà vẫn không có tin nhắn,otp_issue
+otp bi loi khi thanh toan online,otp_issue
+Mã xác thực giao dịch không về máy,otp_issue
+Không nhận được tin nhắn xác nhận giao dịch từ ngân hàng,otp_issue
+Smart OTP báo lỗi kích hoạt,otp_issue
+otp het han lien tuc,otp_issue
+"Mình nhập OTP nhiều lần bị báo khóa, làm sao nhận mã mới?",otp_issue
+chua nhan dc otp,otp_issue
+App ngân hàng không hiện mã OTP khi chuyển khoản,otp_issue
+sms otp bi cham,otp_issue
+Tôi cần lấy lại mã xác thực vì chưa nhận được,otp_issue
+Thanh toán online xong mà không có OTP về,otp_issue
+Quên mật khẩu đăng nhập app,login_issue
+quen mat khau app ngan hang,login_issue
+Không đăng nhập được vào ứng dụng ngân hàng,login_issue
+dang nhap app bi loi,login_issue
+Tài khoản app bị khóa do nhập sai mật khẩu nhiều lần,login_issue
+Làm sao đặt lại mật khẩu internet banking?,login_issue
+lay lai mat khau dang nhap,login_issue
+App báo sai tên đăng nhập hoặc mật khẩu,login_issue
+Mình đổi điện thoại mới và không đăng nhập được app,login_issue
+reset mk app,login_issue
+Đăng nhập bằng vân tay không được nữa,login_issue
+Quên tên đăng nhập internet banking,login_issue
+mở khóa tài khoản ứng dụng như thế nào,login_issue
+"Em không vào được app, cứ báo lỗi đăng nhập",login_issue
+dang ky lai tai khoan app o dau,login_issue
+Face ID đăng nhập app bị lỗi,login_issue
+Mình muốn đổi mật khẩu đăng nhập app,login_issue
+khong vao duoc internet banking,login_issue
+"Tài khoản ngân hàng điện tử bị khóa, mở lại sao?",login_issue
+mat khau app sai hoai,login_issue
+App ngân hàng treo ở màn hình đăng nhập,login_issue
+Mình bị đăng xuất liên tục khỏi app,login_issue
+Cần hỗ trợ khôi phục quyền truy cập app ngân hàng,login_issue
+Tăng hạn mức chuyển khoản,change_limit
+han muc chuyen tien toi da la bao nhieu,change_limit
+Mình muốn nâng hạn mức rút tiền ATM mỗi ngày,change_limit
+tăng hạn mức thẻ tín dụng,change_limit
+Hạn mức giao dịch một lần là bao nhiêu?,change_limit
+giảm han muc chuyen khoan cho an toan,change_limit
+Làm sao đổi hạn mức giao dịch trên app?,change_limit
+"Mình cần chuyển khoản số tiền lớn, nâng hạn mức được không?",change_limit
+han muc the tin dung,change_limit
+Hạn mức rút tiền mặt tối đa một ngày,change_limit
+Đặt hạn mức chi tiêu cho thẻ,change_limit
+Tăng limit chuyển tiền lên 500 triệu,change_limit
+Hạn mức chuyển khoản nhanh 24/7 là bao nhiêu,change_limit
+cai dat han muc giao dich o dau,change_limit
+Mình muốn hạ hạn mức xuống để tránh bị lừa,change_limit
+Có thể tăng hạn mức tạm thời trong 1 ngày không?,change_limit
+nang han muc rut tien the atm,change_limit
+Thủ tục nâng hạn mức thẻ tín dụng cần gì?,change_limit
+han muc quet the nuoc ngoai,change_limit
+Hạn mức thanh toán online của thẻ,change_limit
+đổi limit thẻ,change_limit
+"Bị báo vượt quá hạn mức giao dịch ngày, làm sao tăng lên",change_limit
+Xin tăng hạn mức giao dịch qua app,change_limit
+Thanh toán tiền điện qua app,bill_payment
+nap tien dien thoai,bill_payment
+Làm sao đóng tiền nước trên ứng dụng ngân hàng?,bill_payment
+thanh toán hóa đơn internet,bill_payment
+Nạp tiền điện thoại cho số khác được không,bill_payment
+dang ky tu dong thanh toan hoa don,bill_payment
+Mình muốn đóng học phí qua app ngân hàng,bill_payment
+thanh toan tien dien o dau,bill_payment
+Cách thanh toán cước viễn thông bằng thẻ,bill_payment
+nạp data 4G cho điện thoại,bill_payment
+"Có thể trả tiền điện, nước, internet cùng lúc không?",bill_payment
+đóng tiền chung cư qua ứng dụng,bill_payment
+thanh toan hoa don tren app nhu the nao,bill_payment
+Mình muốn cài đặt tự động trừ tiền điện hằng tháng,bill_payment
+Thanh toán bảo hiểm qua tài khoản ngân hàng,bill_payment
+nạp thẻ game bằng app ngân hàng,bill_payment
+Trả tiền truyền hình cáp qua app,bill_payment
+Tra cứu hóa đơn điện chưa thanh toán,bill_payment
+thanh toan tien nuoc bang the atm,bill_payment
+Hóa đơn thanh toán qua QR được không?,bill_payment
+Mình muốn thanh toán hóa đơn điện tháng này,bill_payment
+nạp tiền cho thuê bao trả trước,bill_payment
+Danh sách dịch vụ thanh toán hóa đơn trên app,bill_payment
+dong tien dien nuoc,bill_payment
+Nên mua cổ phiếu ngân hàng nào bây giờ?,out_of_scope
+Giá bitcoin hôm nay bao nhiêu?,out_of_scope
+Giá vàng hôm nay thế nào,out_of_scope
+Tư vấn đầu tư chứng khoán cho người mới,out_of_scope
+xin chào,out_of_scope
+Cảm ơn bạn nhé,out_of_scope
+Bạn tên là gì?,out_of_scope
+Bạn có khỏe không?,out_of_scope
+tạm biệt,out_of_scope
+asdfghjkl,out_of_scope
+???,out_of_scope
+12345,out_of_scope
+Kể chuyện cười đi,out_of_scope
+Thủ đô của Pháp là gì?,out_of_scope
+Giải thích blockchain là gì,out_of_scope
+Tôi nên làm gì để giảm cân?,out_of_scope
+Cho mình công thức nấu phở,out_of_scope
+Cách viết CV xin việc,out_of_scope
+Chuyến bay Hà Nội đi Đà Nẵng giá bao nhiêu,out_of_scope
+Mua bảo hiểm xe máy ở đâu?,out_of_scope
+Ngân hàng nào có nhiều chi nhánh nhất Việt Nam?,out_of_scope
+Cách làm giàu nhanh,out_of_scope
+Mình buồn quá,out_of_scope
+hello,out_of_scope
+ok,out_of_scope
