@@ -311,16 +311,17 @@ Mở CloudWatch → Dashboards → `intent-api-health`: các biểu đồ phản
 - **Bảo mật cơ bản**: Security Group chỉ cho phép ALB gọi vào EC2, không mở SSH, không đưa key hay `.env` lên repo.
 - **Quản lý chi phí**: hạ tầng vẫn có thể phát sinh phí khi không gọi API. Stop EC2 không dừng chi phí ALB, NAT Gateway hoặc tài nguyên lưu trữ còn giữ lại.
 
-### Dọn tài nguyên (Free Tier Cleanup)
-Chỉ dọn tài nguyên khi không còn cần truy cập hệ thống cho demo hoặc chấm bài. Trước đó, lưu source, cấu hình và minh chứng cần thiết.
+### Quản lý chi phí và dọn tài nguyên
 
-1. Rà các region để xác định tài nguyên dư hoặc tạo nhầm; đối chiếu chi phí theo service/usage type.
-2. Khi hoàn tất chấm bài, xóa ALB/Target Group không dùng, terminate EC2 sau khi bảo toàn dữ liệu và kiểm tra EBS còn sót.
-3. Xóa NAT Gateway không dùng, sau đó release Elastic IP không còn gắn tài nguyên.
-4. Rà CloudWatch log groups, alarms, Dashboard, SNS và snapshot còn giữ lại.
-5. Nếu xóa VPC, dọn các dependency liên quan như endpoints, network interfaces, subnet, route table và Internet Gateway theo yêu cầu AWS Console.
+Hệ thống được duy trì để phục vụ demo và chấm bài. Khi không còn sử dụng:
 
-Không coi credit là tài nguyên miễn phí vô hạn. Đặt budget/cảnh báo hỗ trợ theo dõi, không tự động giới hạn chi tiêu.
+- Lưu lại source code, cấu hình và minh chứng.
+- Xóa ALB, Target Group và EC2 không dùng; kiểm tra EBS và snapshot còn sót.
+- Xóa NAT Gateway, giải phóng Elastic IP không còn sử dụng.
+- Rà soát CloudWatch, SNS và các tài nguyên mạng còn lại.
+
+Theo dõi chi phí trong Billing và thiết lập AWS Budgets nếu cần. Budget
+chỉ hỗ trợ cảnh báo, không tự động dừng tài nguyên hoặc giới hạn chi tiêu.
 
 ---
 
